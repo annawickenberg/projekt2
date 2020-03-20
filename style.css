@@ -1,39 +1,52 @@
 #container {
     display: grid;
     height: 100vh;
-    width: 200;
+    width: 200vh;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     grid-template-areas: 
-    'hd hd hd hd ft ft'
-    'mn mn mn mn as as'
-    'mn mn mn mn as as'
-    'mn mn mn mn as as';
+    'hd hd hd ft ft'
+    'mn mn mn as as'
+    'mn mn mn as as'
+    'mn mn mn as as';
   
   }
   
   header {
+    height: 25vh;
+    width:120vh;
     grid-area:hd;
     background-color: #937298;
+    border:white 2vh;
+   
   }
   
   
   aside{
+    height: 75vh;
+    width:80vh;
     grid-area:as;
     background-color: #133e7c;
     background:linear-gradient(to right, #133e7c 0%, #0abdc6 100%);
+    border:white 2vh;
   }
   
   main{
+    height:75vh;
+    width:120vh;
     grid-area:mn;
-    background-color: red;
+    background-color: #133e7c;
+    border:white 1vh;
   
   }
   
   footer{
+    height: 25vh;
+    width:80vh;
     grid-area:ft;
     background-color:#133e7c;
-    place-items: center;}
+    place-items: center;
+    border:white 2vh;}
     
     #inlogga{ text-align: center; font-family: Bebas Neue; 
       color:white}

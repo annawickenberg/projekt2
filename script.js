@@ -1,0 +1,1 @@
+document.querySelector('.publicerare').addEventListener('click', alert('HEJ'));
