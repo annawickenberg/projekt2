@@ -16,7 +16,9 @@
     height: 25vh;
     width:120vh;
     grid-area:hd;
-    background-color: black;
+    background:linear-gradient( #711c91 0%, #000 100%);
+    border-style:solid;
+    border-color: black;
    }
   
   
@@ -25,14 +27,18 @@
     width:80vh;
     grid-area:as;
     background-color: #133e7c;
-    background:linear-gradient(to right, #133e7c 0%, #0abdc6 100%);
+    background:linear-gradient(to right, black 0%, #711c91 100%);
+    border-style:solid;
+    border-color: black;
    }
   
   main {
     height:75vh;
     width:120vh;
     grid-area:mn;
-    background-color: #133e7c;
+    background-color: #711c91;
+    border-style:solid;
+    border-color: black;
    }
 
   img {
@@ -44,13 +50,19 @@
     height: 25vh;
     width:80vh;
     grid-area:ft;
-    background-color:#133e7c;
-    place-items: center;
-    }
+    background-color: #711c91;
+    background-image: radial-gradient( #711c91,black);
+    border-style:solid;
+    border-color: black;
+  }
+
     
-  #inlogga { 
-    text-align: center; font-family: Bebas Neue; 
-    color:white;
+  #bok { 
+    height: 25vh;
+    width: 30vh;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
     }
   
   .glow { 

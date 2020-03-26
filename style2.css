@@ -16,45 +16,52 @@
     width:120vh;
     grid-area:hd;
     background-color: black;
-    border-image: linear-gradient(to right, #711c91 0%, #0abdc6 100%);
-    border-image-slice: 1;
+    background:linear-gradient(#711c91 0%, #000 100%);
+    border-style:solid;
+    border-color: black;
   }
   
   img { 
     height:75vh;
-    width:120vh ;
+    width:120vh;
   }
   
   aside {
-    height: 75vh;
+    height: 50vh;
     width:80vh;
     grid-area:as;
-    background-color: #133e7c;
-    background:linear-gradient(to right, #133e7c 0%, #0abdc6 100%);
+    background-color: #711c91;
+    background:linear-gradient(to right,#000 0%, #711c91 100%);
+    border-style:solid;
+    border-color: black;
   }
   
   main {
     height:75vh;
     width:120vh;
     grid-area:mn;
-    background-color: #133e7c;
+    background-color:#711c91 ;
+    border-style:solid;
+    border-color: black;
   }
   
   footer {
-    height: 25vh;
+    height: 50vh;
     width:80vh;
     grid-area:ft;
-    background-color:#133e7c;
+    background-color:#711c91;
     place-items: center;
-  }
+    background-image: radial-gradient(#0abdc6, #711c91, #000);
+    border-style:solid;
+    border-color: black;
+    }
 
   #logga {
-    height:15vh;
-    width:25vh;
+    height:45vh;
+    width:40vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
   }
     
   #inlogga { 
@@ -113,44 +120,51 @@
     border-image: linear-gradient(to right, #711c91 0%, #0abdc6 100%);
     border-image-slice: 1;
     border-width: 2vh;
-        }
-  .lasare:hover{transition-duration: 0.4s;
+  }
+  .lasare:hover {
+    transition-duration: 0.4s;
     cursor: pointer;
-    
     background-color:#711c91; 
     color: black;
-    
-          border-image-slice: 1;
-          border-width: 2vh;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); }
-    .lasare:active{background-color:#711c91 ;
+    border-image-slice: 1;
+    border-width: 2vh;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+    }
+    .lasare:active {
+      background-color:#711c91 ;
       box-shadow: 0 5px #666;
-      transform: translateY(4px);} 
+      transform: translateY(4px);
+    } 
   
     
-      .medlem {
-        background-color: #b676ce;
-        height: 15vh;
-        width: 40vh;
-        font-size: 4vh;
+    .medlem {
+      background-color: #b676ce;
+      height: 15vh;
+      width: 40vh;
+      font-size: 4vh;
       border-image: linear-gradient(to right, #711c91 0%, #0abdc6 100%);
       border-image-slice: 1;
-      border-width: 2vh;}
+      border-width: 2vh;
+    }
       
-      .medlem:hover{transition-duration: 0.4s;
-        cursor: pointer;
-    
-        background-color:#711c91; 
-        color: black;
-        
-              border-image-slice: 1;
-              border-width: 2vh;box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); }
-              .medlem:active{background-color:#711c91 ;
-                box-shadow: 0 5px #666;
-                transform: translateY(4px);} 
+    .medlem:hover {
+      transition-duration: 0.4s;
+      cursor: pointer;
+      background-color:#711c91; 
+      color: black;
+      border-image-slice: 1;
+      border-width: 2vh;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+    }
+              
+    .medlem:active {
+      background-color:#711c91 ;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);} 
             
-   button {display:block;
-    margin:4vh 25%;
+    button { 
+      display:block;
+      margin:4vh 25%;
 }
    
 
