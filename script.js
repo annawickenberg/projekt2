@@ -1,1 +1,2 @@
-document.querySelector('.publicerare').addEventListener('click', alert('HEJ'));
+document.querySelector('.publicerare').addEventListener('click', );
+css(vendorPrefix)
