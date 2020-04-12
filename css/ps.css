@@ -1,0 +1,28 @@
+#container {
+    display:grid;
+    height: 100vh;
+    grid-column-gap: 3px;
+    grid-row-gap: 5px;
+    grid-template-areas:
+    'hd hd mn'
+    'hd hd mn'
+    'hd hd mn'
+}
+
+    header {
+        grid-area: hd;
+        background-color: white;
+    }
+
+    
+    
+
+    main {
+        grid-area: mn;
+        background-color: #927397 ;
+    
+    }
+
+   
+    
+
